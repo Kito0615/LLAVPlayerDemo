@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A37CCB41CB7614600CFB305 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CCB31CB7614600CFB305 /* main.m */; };
+		8A37CCB71CB7614600CFB305 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CCB61CB7614600CFB305 /* AppDelegate.m */; };
+		8A37CCBA1CB7614600CFB305 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CCB91CB7614600CFB305 /* ViewController.m */; };
+		8A37CCBD1CB7614600CFB305 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A37CCBB1CB7614600CFB305 /* Main.storyboard */; };
+		8A37CCBF1CB7614600CFB305 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A37CCBE1CB7614600CFB305 /* Assets.xcassets */; };
+		8A37CCC21CB7614600CFB305 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A37CCC01CB7614600CFB305 /* LaunchScreen.storyboard */; };
+		8A37CCCD1CB7614600CFB305 /* LLAVPlayer_iOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CCCC1CB7614600CFB305 /* LLAVPlayer_iOSTests.m */; };
+		8A37CCD81CB7614600CFB305 /* LLAVPlayer_iOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CCD71CB7614600CFB305 /* LLAVPlayer_iOSUITests.m */; };
+		8A37CCE61CB7616500CFB305 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A37CCE51CB7616500CFB305 /* AVKit.framework */; };
+		8A37CCE81CB7616800CFB305 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A37CCE71CB7616800CFB305 /* AVFoundation.framework */; };
+		8A37CCEA1CB7616C00CFB305 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A37CCE91CB7616C00CFB305 /* AssetsLibrary.framework */; };
+		8A37CCED1CB761B700CFB305 /* LLSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A37CCEC1CB761B700CFB305 /* LLSource.m */; };
+		8A836D5E1CBB51B200E3B767 /* LLVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A836D5C1CBB51B200E3B767 /* LLVideoCell.m */; };
+		8A836D5F1CBB51B200E3B767 /* LLVideoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A836D5D1CBB51B200E3B767 /* LLVideoCell.xib */; };
+		8A836DA61CBB8EAF00E3B767 /* LLAVPlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A836DA51CBB8EAF00E3B767 /* LLAVPlayerVC.m */; };
+		8AFF73511CBB9DF30020B0EF /* LLPlayControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF73501CBB9DF30020B0EF /* LLPlayControlView.m */; };
+		8AFF73541CBBACFF0020B0EF /* LLPlayControlSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF73531CBBACFF0020B0EF /* LLPlayControlSubview.m */; };
+		8AFF73571CBBAD0F0020B0EF /* LLPlayStatusSubview.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AFF73561CBBAD0F0020B0EF /* LLPlayStatusSubview.m */; };
+		8AFF73591CBBAD220020B0EF /* LLPlayControlSubview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF73581CBBAD220020B0EF /* LLPlayControlSubview.xib */; };
+		8AFF735B1CBBAD2D0020B0EF /* LLPlayStatusSubview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8AFF735A1CBBAD2D0020B0EF /* LLPlayStatusSubview.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A37CCC91CB7614600CFB305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A37CCA71CB7614600CFB305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A37CCAE1CB7614600CFB305;
+			remoteInfo = LLAVPlayer_iOS;
+		};
+		8A37CCD41CB7614600CFB305 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A37CCA71CB7614600CFB305 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A37CCAE1CB7614600CFB305;
+			remoteInfo = LLAVPlayer_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A37CCAF1CB7614600CFB305 /* LLAVPlayer_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLAVPlayer_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A37CCB31CB7614600CFB305 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A37CCB51CB7614600CFB305 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A37CCB61CB7614600CFB305 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A37CCB81CB7614600CFB305 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8A37CCB91CB7614600CFB305 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8A37CCBC1CB7614600CFB305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A37CCBE1CB7614600CFB305 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A37CCC11CB7614600CFB305 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A37CCC31CB7614600CFB305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A37CCC81CB7614600CFB305 /* LLAVPlayer_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLAVPlayer_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A37CCCC1CB7614600CFB305 /* LLAVPlayer_iOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAVPlayer_iOSTests.m; sourceTree = "<group>"; };
+		8A37CCCE1CB7614600CFB305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A37CCD31CB7614600CFB305 /* LLAVPlayer_iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLAVPlayer_iOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A37CCD71CB7614600CFB305 /* LLAVPlayer_iOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLAVPlayer_iOSUITests.m; sourceTree = "<group>"; };
+		8A37CCD91CB7614600CFB305 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A37CCE51CB7616500CFB305 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		8A37CCE71CB7616800CFB305 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8A37CCE91CB7616C00CFB305 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		8A37CCEB1CB761B700CFB305 /* LLSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSource.h; sourceTree = "<group>"; };
+		8A37CCEC1CB761B700CFB305 /* LLSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSource.m; sourceTree = "<group>"; };
+		8A836D5B1CBB51B200E3B767 /* LLVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLVideoCell.h; sourceTree = "<group>"; };
+		8A836D5C1CBB51B200E3B767 /* LLVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLVideoCell.m; sourceTree = "<group>"; };
+		8A836D5D1CBB51B200E3B767 /* LLVideoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLVideoCell.xib; sourceTree = "<group>"; };
+		8A836DA41CBB8EAF00E3B767 /* LLAVPlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAVPlayerVC.h; sourceTree = "<group>"; };
+		8A836DA51CBB8EAF00E3B767 /* LLAVPlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAVPlayerVC.m; sourceTree = "<group>"; };
+		8AFF734F1CBB9DF30020B0EF /* LLPlayControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlayControlView.h; sourceTree = "<group>"; };
+		8AFF73501CBB9DF30020B0EF /* LLPlayControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPlayControlView.m; sourceTree = "<group>"; };
+		8AFF73521CBBACFF0020B0EF /* LLPlayControlSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlayControlSubview.h; sourceTree = "<group>"; };
+		8AFF73531CBBACFF0020B0EF /* LLPlayControlSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPlayControlSubview.m; sourceTree = "<group>"; };
+		8AFF73551CBBAD0F0020B0EF /* LLPlayStatusSubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlayStatusSubview.h; sourceTree = "<group>"; };
+		8AFF73561CBBAD0F0020B0EF /* LLPlayStatusSubview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPlayStatusSubview.m; sourceTree = "<group>"; };
+		8AFF73581CBBAD220020B0EF /* LLPlayControlSubview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLPlayControlSubview.xib; sourceTree = "<group>"; };
+		8AFF735A1CBBAD2D0020B0EF /* LLPlayStatusSubview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLPlayStatusSubview.xib; sourceTree = "<group>"; };
+		8AFF735C1CBBB1F00020B0EF /* LLPlayStatusProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPlayStatusProtocol.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A37CCAC1CB7614600CFB305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A37CCEA1CB7616C00CFB305 /* AssetsLibrary.framework in Frameworks */,
+				8A37CCE81CB7616800CFB305 /* AVFoundation.framework in Frameworks */,
+				8A37CCE61CB7616500CFB305 /* AVKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A37CCC51CB7614600CFB305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A37CCD01CB7614600CFB305 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A37CCA61CB7614600CFB305 = {
+			isa = PBXGroup;
+			children = (
+				8A37CCE91CB7616C00CFB305 /* AssetsLibrary.framework */,
+				8A37CCE71CB7616800CFB305 /* AVFoundation.framework */,
+				8A37CCE51CB7616500CFB305 /* AVKit.framework */,
+				8A37CCB11CB7614600CFB305 /* LLAVPlayer_iOS */,
+				8A37CCCB1CB7614600CFB305 /* LLAVPlayer_iOSTests */,
+				8A37CCD61CB7614600CFB305 /* LLAVPlayer_iOSUITests */,
+				8A37CCB01CB7614600CFB305 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A37CCB01CB7614600CFB305 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A37CCAF1CB7614600CFB305 /* LLAVPlayer_iOS.app */,
+				8A37CCC81CB7614600CFB305 /* LLAVPlayer_iOSTests.xctest */,
+				8A37CCD31CB7614600CFB305 /* LLAVPlayer_iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A37CCB11CB7614600CFB305 /* LLAVPlayer_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8A37CCEB1CB761B700CFB305 /* LLSource.h */,
+				8A37CCEC1CB761B700CFB305 /* LLSource.m */,
+				8A37CCB51CB7614600CFB305 /* AppDelegate.h */,
+				8A37CCB61CB7614600CFB305 /* AppDelegate.m */,
+				8A37CCB81CB7614600CFB305 /* ViewController.h */,
+				8A37CCB91CB7614600CFB305 /* ViewController.m */,
+				8A836D5B1CBB51B200E3B767 /* LLVideoCell.h */,
+				8A836D5C1CBB51B200E3B767 /* LLVideoCell.m */,
+				8A836D5D1CBB51B200E3B767 /* LLVideoCell.xib */,
+				8A37CCBB1CB7614600CFB305 /* Main.storyboard */,
+				8A37CCBE1CB7614600CFB305 /* Assets.xcassets */,
+				8A37CCC01CB7614600CFB305 /* LaunchScreen.storyboard */,
+				8A37CCC31CB7614600CFB305 /* Info.plist */,
+				8A37CCB21CB7614600CFB305 /* Supporting Files */,
+				8A836DA41CBB8EAF00E3B767 /* LLAVPlayerVC.h */,
+				8A836DA51CBB8EAF00E3B767 /* LLAVPlayerVC.m */,
+				8AFF734F1CBB9DF30020B0EF /* LLPlayControlView.h */,
+				8AFF73501CBB9DF30020B0EF /* LLPlayControlView.m */,
+				8AFF73581CBBAD220020B0EF /* LLPlayControlSubview.xib */,
+				8AFF735A1CBBAD2D0020B0EF /* LLPlayStatusSubview.xib */,
+				8AFF73521CBBACFF0020B0EF /* LLPlayControlSubview.h */,
+				8AFF73531CBBACFF0020B0EF /* LLPlayControlSubview.m */,
+				8AFF73551CBBAD0F0020B0EF /* LLPlayStatusSubview.h */,
+				8AFF73561CBBAD0F0020B0EF /* LLPlayStatusSubview.m */,
+				8AFF735C1CBBB1F00020B0EF /* LLPlayStatusProtocol.h */,
+			);
+			path = LLAVPlayer_iOS;
+			sourceTree = "<group>";
+		};
+		8A37CCB21CB7614600CFB305 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A37CCB31CB7614600CFB305 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A37CCCB1CB7614600CFB305 /* LLAVPlayer_iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A37CCCC1CB7614600CFB305 /* LLAVPlayer_iOSTests.m */,
+				8A37CCCE1CB7614600CFB305 /* Info.plist */,
+			);
+			path = LLAVPlayer_iOSTests;
+			sourceTree = "<group>";
+		};
+		8A37CCD61CB7614600CFB305 /* LLAVPlayer_iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8A37CCD71CB7614600CFB305 /* LLAVPlayer_iOSUITests.m */,
+				8A37CCD91CB7614600CFB305 /* Info.plist */,
+			);
+			path = LLAVPlayer_iOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A37CCAE1CB7614600CFB305 /* LLAVPlayer_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A37CCDC1CB7614600CFB305 /* Build configuration list for PBXNativeTarget "LLAVPlayer_iOS" */;
+			buildPhases = (
+				8A37CCAB1CB7614600CFB305 /* Sources */,
+				8A37CCAC1CB7614600CFB305 /* Frameworks */,
+				8A37CCAD1CB7614600CFB305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLAVPlayer_iOS;
+			productName = LLAVPlayer_iOS;
+			productReference = 8A37CCAF1CB7614600CFB305 /* LLAVPlayer_iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A37CCC71CB7614600CFB305 /* LLAVPlayer_iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A37CCDF1CB7614600CFB305 /* Build configuration list for PBXNativeTarget "LLAVPlayer_iOSTests" */;
+			buildPhases = (
+				8A37CCC41CB7614600CFB305 /* Sources */,
+				8A37CCC51CB7614600CFB305 /* Frameworks */,
+				8A37CCC61CB7614600CFB305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A37CCCA1CB7614600CFB305 /* PBXTargetDependency */,
+			);
+			name = LLAVPlayer_iOSTests;
+			productName = LLAVPlayer_iOSTests;
+			productReference = 8A37CCC81CB7614600CFB305 /* LLAVPlayer_iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8A37CCD21CB7614600CFB305 /* LLAVPlayer_iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A37CCE21CB7614600CFB305 /* Build configuration list for PBXNativeTarget "LLAVPlayer_iOSUITests" */;
+			buildPhases = (
+				8A37CCCF1CB7614600CFB305 /* Sources */,
+				8A37CCD01CB7614600CFB305 /* Frameworks */,
+				8A37CCD11CB7614600CFB305 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A37CCD51CB7614600CFB305 /* PBXTargetDependency */,
+			);
+			name = LLAVPlayer_iOSUITests;
+			productName = LLAVPlayer_iOSUITests;
+			productReference = 8A37CCD31CB7614600CFB305 /* LLAVPlayer_iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A37CCA71CB7614600CFB305 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LL;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = AnarL;
+				TargetAttributes = {
+					8A37CCAE1CB7614600CFB305 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					8A37CCC71CB7614600CFB305 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8A37CCAE1CB7614600CFB305;
+					};
+					8A37CCD21CB7614600CFB305 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 8A37CCAE1CB7614600CFB305;
+					};
+				};
+			};
+			buildConfigurationList = 8A37CCAA1CB7614600CFB305 /* Build configuration list for PBXProject "LLAVPlayer_iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A37CCA61CB7614600CFB305;
+			productRefGroup = 8A37CCB01CB7614600CFB305 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A37CCAE1CB7614600CFB305 /* LLAVPlayer_iOS */,
+				8A37CCC71CB7614600CFB305 /* LLAVPlayer_iOSTests */,
+				8A37CCD21CB7614600CFB305 /* LLAVPlayer_iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A37CCAD1CB7614600CFB305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A37CCC21CB7614600CFB305 /* LaunchScreen.storyboard in Resources */,
+				8AFF735B1CBBAD2D0020B0EF /* LLPlayStatusSubview.xib in Resources */,
+				8AFF73591CBBAD220020B0EF /* LLPlayControlSubview.xib in Resources */,
+				8A37CCBF1CB7614600CFB305 /* Assets.xcassets in Resources */,
+				8A37CCBD1CB7614600CFB305 /* Main.storyboard in Resources */,
+				8A836D5F1CBB51B200E3B767 /* LLVideoCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A37CCC61CB7614600CFB305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A37CCD11CB7614600CFB305 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A37CCAB1CB7614600CFB305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AFF73511CBB9DF30020B0EF /* LLPlayControlView.m in Sources */,
+				8A836DA61CBB8EAF00E3B767 /* LLAVPlayerVC.m in Sources */,
+				8A37CCBA1CB7614600CFB305 /* ViewController.m in Sources */,
+				8A37CCB71CB7614600CFB305 /* AppDelegate.m in Sources */,
+				8A37CCED1CB761B700CFB305 /* LLSource.m in Sources */,
+				8AFF73541CBBACFF0020B0EF /* LLPlayControlSubview.m in Sources */,
+				8A37CCB41CB7614600CFB305 /* main.m in Sources */,
+				8A836D5E1CBB51B200E3B767 /* LLVideoCell.m in Sources */,
+				8AFF73571CBBAD0F0020B0EF /* LLPlayStatusSubview.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A37CCC41CB7614600CFB305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A37CCCD1CB7614600CFB305 /* LLAVPlayer_iOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A37CCCF1CB7614600CFB305 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A37CCD81CB7614600CFB305 /* LLAVPlayer_iOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A37CCCA1CB7614600CFB305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A37CCAE1CB7614600CFB305 /* LLAVPlayer_iOS */;
+			targetProxy = 8A37CCC91CB7614600CFB305 /* PBXContainerItemProxy */;
+		};
+		8A37CCD51CB7614600CFB305 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A37CCAE1CB7614600CFB305 /* LLAVPlayer_iOS */;
+			targetProxy = 8A37CCD41CB7614600CFB305 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A37CCBB1CB7614600CFB305 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A37CCBC1CB7614600CFB305 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A37CCC01CB7614600CFB305 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A37CCC11CB7614600CFB305 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A37CCDA1CB7614600CFB305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A37CCDB1CB7614600CFB305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A37CCDD1CB7614600CFB305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLAVPlayer_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Digiarty.LLAVPlayer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e500c389-2cff-4106-a134-8cd121ab4049";
+			};
+			name = Debug;
+		};
+		8A37CCDE1CB7614600CFB305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLAVPlayer_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Digiarty.LLAVPlayer-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e500c389-2cff-4106-a134-8cd121ab4049";
+			};
+			name = Release;
+		};
+		8A37CCE01CB7614600CFB305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLAVPlayer_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Digiarty.LLAVPlayer-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLAVPlayer_iOS.app/LLAVPlayer_iOS";
+			};
+			name = Debug;
+		};
+		8A37CCE11CB7614600CFB305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLAVPlayer_iOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Digiarty.LLAVPlayer-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLAVPlayer_iOS.app/LLAVPlayer_iOS";
+			};
+			name = Release;
+		};
+		8A37CCE31CB7614600CFB305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLAVPlayer_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Digiarty.LLAVPlayer-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLAVPlayer_iOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8A37CCE41CB7614600CFB305 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLAVPlayer_iOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Digiarty.LLAVPlayer-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLAVPlayer_iOS;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A37CCAA1CB7614600CFB305 /* Build configuration list for PBXProject "LLAVPlayer_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A37CCDA1CB7614600CFB305 /* Debug */,
+				8A37CCDB1CB7614600CFB305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A37CCDC1CB7614600CFB305 /* Build configuration list for PBXNativeTarget "LLAVPlayer_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A37CCDD1CB7614600CFB305 /* Debug */,
+				8A37CCDE1CB7614600CFB305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A37CCDF1CB7614600CFB305 /* Build configuration list for PBXNativeTarget "LLAVPlayer_iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A37CCE01CB7614600CFB305 /* Debug */,
+				8A37CCE11CB7614600CFB305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A37CCE21CB7614600CFB305 /* Build configuration list for PBXNativeTarget "LLAVPlayer_iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A37CCE31CB7614600CFB305 /* Debug */,
+				8A37CCE41CB7614600CFB305 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A37CCA71CB7614600CFB305 /* Project object */;
+}
